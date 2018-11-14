@@ -1,0 +1,63 @@
+
+body{
+	padding-top: 70px;
+}
+
+/* flex for different size images, add to "row" div */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jumbotron{
+	color: #2c3e50;
+	background: #ecf0f1;
+	/* text-align: center; */
+}
+
+.navbar-inverse{
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #ddd;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #ddd;
+}
+
+.thumbnail{
+	-webkit-transition: all 0.2s; /* Safari */
+	transition: all 0.2s;
+	margin: 1.1em;
+}
+
+.thumbnail:hover{
+	transform: scale(1.1);
+}
+
+.nav-underline{
+	-webkit-transition: all 0.5s; /* Safari */
+	transition: all 0.5s;
+}
+
+.nav-underline:hover{
+	box-shadow: 0px -3px 0px #ddd inset;
+}
+
+.img-centered{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	
+	max-width: 100%;
+	height: auto;
+	
+	
+}
+
+
+
